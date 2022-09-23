@@ -17,7 +17,10 @@ This Turborepo includes the following packages and apps:
 
 Each package and app is 100% [TypeScript]
 
-## Using this example
+## IMPORTANT
+- Due to APIS limitations on requests, I am using mock data, to use real apis, go to -> `apps/web/services/api/exchange.ts` comment mocks and uncomment `axios`
+
+## Using this demo
 
 Run the following command:
 
