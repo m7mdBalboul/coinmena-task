@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["dom", "ES2015", "ESNext"],
+    "baseUrl": ".",
+    "noEmit": true
+  },
+  "extends": "tsconfig/base.json",
+  "include": ["."],
+  "exclude": ["node_modules", "dist", "build"]
+}
